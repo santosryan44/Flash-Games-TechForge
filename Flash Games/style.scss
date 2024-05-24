@@ -1,0 +1,72 @@
+$primary-color: #06121e;
+$secondary-color: #040f1a;
+$font1: crossorigin sans-serif;
+$font2: Radio Canada Big, sans-serif;
+
+
+body {
+    font-family: $font2;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: 1px;
+    text-align: center;
+
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 2px;
+    }
+
+    li {
+        display: inline;
+        margin: 0 1rem;
+        
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+
+    }
+    
+
+
+}
+
+main {
+    padding: 2rem;
+
+    section {
+        margin: 2rem 0;
+
+        h2 {
+            color: $primary-color;
+        }
+    }
+}
+
+.home-pag {
+    text-align: center;
+}
+
+.sobre-pag{
+    text-align: center;
+}
+
+
+footer {
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
